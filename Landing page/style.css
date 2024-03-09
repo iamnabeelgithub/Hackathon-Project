@@ -22,8 +22,6 @@ body{
     color: #d6d6d6;
     border-radius: 10px;
     padding: 30px 40px;
-        
-
 }
 
 .account h1{
@@ -134,5 +132,24 @@ body{
 .register p a:hover{
     text-decoration: underline;
     color: rgb(189, 121, 121);
+}
 
+@media (max-width: 700px){
+    .account {
+        width: 345px;
+    }
+    .input-box input{
+        width: 80%;
+        height: 80%;
+        margin-left: 20px;
+    }
+    .input-box i{
+        position: absolute;
+        right: 10px;
+        top: 25%;
+        transform: translate(-250%);
+        font-size: 1.1rem;
+    }
+    .account .btn{
+    }
 }
