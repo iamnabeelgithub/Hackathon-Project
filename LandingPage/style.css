@@ -5,6 +5,8 @@
     font-weight: bold;
 }
 body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
     margin: 0;
     padding: 0;
     background-image: url('tirza-van-dijk-TEYrLTKKMSg-unsplash.jpg'); /* Default background image */
