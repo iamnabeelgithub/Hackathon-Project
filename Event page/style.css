@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(120, 17, 210, 0.518);
+}
+
+body h1 {
+    margin: 30px 0px 0px 0px;
+    font-family: MV Boli;
+    font-size: 3rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #10499f, #1941969e);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.38);
+}
+
+.Searchbar {
+    margin: 20px auto;
+    width: 100%;
+    max-width: none;
+    background-color: rgba(225, 225, 225, 0.24);
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: transform 0.3s ease;
+}
+
+.Searchbar:hover {
+    transform: scale(1.04);
+}
+
+.Searchbar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 25px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+
+::placeholder {
+    color: #b8ae20;
+}
+
+.search-icon {
+    margin: 0 0 0 90px;
+    height: 0px;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+    background-color: rgba(195, 47, 47, 0.803);
+
+
+}
+
+
+
+
+.connection {
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.connection button {
+    border: 2px solid #d0aa2cb1;
+
+    width: 55px;
+
+    height: 50px;
+    border-radius: 100%;
+
+    background-color: #fff;
+    cursor: pointer;
+
+    overflow: hidden;
+    box-shadow: 0 0 30px #d0aa2cb1;
+}
+
+.connection button img {
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.connection button:hover img {
+    transform: scale(1.1);
+}
+
+
+.slider {
+    width: 100%; /* Set slider width to 100% to match container width */
+    max-width: 600px;
+    height: auto; /* Allow height to adjust */
+    margin: 0 auto; /* Adjust margin for centering */
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #10499f, #1941969e);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.38);
+}
+
+
+.slider img {
+    width: 100%; /* Ensure images fill the width of the slider */
+    height: ; /* Allow height to adjust while maintaining aspect ratio */
+    border-radius: 20px; /* Maintain border radius of the slider */
+}
+
+
+
+/* Media queries */
+@media only screen and (max-width: 600px) {
+    .Searchbar {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .Searchbar {
+        width: 95%;
+    }
+}
