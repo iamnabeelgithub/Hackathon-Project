@@ -9,7 +9,7 @@ body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
     margin: 0;
     padding: 0;
-    background-image: url('tirza-van-dijk-TEYrLTKKMSg-unsplash.jpg'); /* Default background image */
+    background-image: url('../Eventpage/images/background.jpg') ;/* Default background image */
     background-size: cover;
     background-repeat: no-repeat;
     transition: background-image 1s ease-in-out; /* Smooth transition for background change */
@@ -27,13 +27,13 @@ body{
     font-size: 37px;
     top: 40px;
     left: 30px;
-    color: white;
+    color: rgb(139, 139, 139);
 }
 
 .account{
     position: relative;
     max-width: 480px;
-    background-color: #00000036;
+    background-color: #000000af;
     color: #d6d6d6;
     border-radius: 10px;
     padding: 30px 40px;
@@ -45,7 +45,7 @@ body{
     font-size: 2rem;
     text-align: center;
 }
-
+  
 .account .input-box{
     position: relative;
     width: 100%;
@@ -81,6 +81,13 @@ body{
 }
 
 
+.mandatory-input:invalid {
+  border-color: red; /* Change border color to indicate error */
+}
+
+.mandatory-input:focus:invalid {
+  box-shadow: 0 0 5px red; /* Add shadow when input is focused and invalid */
+}
 
 .account .remember{
 
@@ -171,7 +178,5 @@ body{
         top: 25%;
         transform: translate(-250%);
         font-size: 1.1rem;
-    }
-    .account .btn{
     }
 }
