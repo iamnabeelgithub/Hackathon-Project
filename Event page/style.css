@@ -5,7 +5,11 @@
 }
 
 body {
-    background-color: rgba(120, 17, 210, 0.518);
+    width: 100%;
+    height: 100%;
+    background: url('images/background.jpg');
+    background-size: cover;
+    
 }
 
 body h1 {
@@ -20,7 +24,7 @@ body h1 {
     margin: 60px auto;
     padding: 20px;
     border-radius: 20px;
-    background: linear-gradient(to bottom, #10499f, #1941969e);
+    background: linear-gradient(to bottom, #070d15, #488b1b9e);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.38);
 }
 
@@ -100,21 +104,25 @@ body h1 {
 
 
 .slider {
-    width: 100%; /* Set slider width to 100% to match container width */
+    width: 100%;
+    /* Set slider width to 100% to match container width */
     max-width: 600px;
-    height: auto; /* Allow height to adjust */
-    margin: 0 auto; /* Adjust margin for centering */
-    padding: 20px;
+    height: auto;
+    /* Allow height to adjust */
+    margin: 0 auto;
+    /* Adjust margin for centering */
+    padding: px 0 0 0px;
     border-radius: 20px;
-    background: linear-gradient(to bottom, #10499f, #1941969e);
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.38);
+    background: linear-gradient(to bottom, #186ae6, #1941969e);
+    box-shadow: 0 0 30px  #488b1b9e;
 }
 
 
 .slider img {
-    width: 100%; /* Ensure images fill the width of the slider */
-    height: ; /* Allow height to adjust while maintaining aspect ratio */
-    border-radius: 20px; /* Maintain border radius of the slider */
+    width: 100%;
+    /* Ensure images fill the width of the slider */
+    border-radius: 20px;
+    /* Maintain border radius of the slider */
 }
 
 
