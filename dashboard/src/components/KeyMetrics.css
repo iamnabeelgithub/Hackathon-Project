@@ -1,0 +1,46 @@
+/* src/components/KeyMetrics.css */
+.metrics {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0 20px; /* Add margin-top to position below TopNav */
+  }
+  
+  .metric-card {
+    background-color: #444; /* Darker background to match the theme */
+    color: white; /* White text for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  }
+  
+  .metric-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+  }
+  
+  .metric-card h3 {
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif; /* Change font for headers */
+    font-weight: bold;
+  }
+  
+  .metric-card p {
+    font-size: 24px;
+    margin: 0;
+    font-family: 'Verdana', sans-serif; /* Change font for values */
+  }
+  
+  .metric-card span {
+    font-size: 14px;
+    color: #87ceeb; /* Sky blue for change text */
+    font-family: 'Arial', sans-serif; /* Consistent font */
+    transition: color 0.3s ease; /* Smooth color change */
+  }
+  
+  .metric-card span:hover {
+    color: #ffcc00; /* Change color on hover */
+  }
+  

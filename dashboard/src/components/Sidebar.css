@@ -1,0 +1,39 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #333; /* Dark background */
+    color: white;
+    padding: 20px 0; /* Only top and bottom padding */
+    position: fixed;
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    display: flex; /* Use flexbox for vertical alignment */
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: space-between; /* Space items evenly */
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1; /* Allow the list to take available vertical space */
+    display: flex;
+    flex-direction: column; /* Stack list items vertically */
+  }
+  
+  .sidebar ul li {
+    padding: 15px 20px; /* Added horizontal padding for better touch area */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #87ceeb; /* Sky blue on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+  }
+  
+  .sidebar ul li:active {
+    transform: translateY(0); /* Remove lift when clicked */
+  }
+  

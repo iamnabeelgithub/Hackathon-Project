@@ -1,0 +1,82 @@
+/* src/components/TopNav.css */
+.topnav {
+    background-color: #333; /* Match Sidebar color */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 200px; /* Adjust for the sidebar width */
+    right: 0;
+    height: 60px;
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  
+  .search-container {
+    display: flex; /* Align search bar and language selector horizontally */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .search {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease; /* Smooth transition */
+    width: 200px;
+    background-color: #444; /* Default background color */
+    color: white;
+  }
+  
+  .search:focus {
+    background-color: #87ceeb; /* Sky blue background on click/focus */
+    color: black; /* Text color change on click/focus */
+    transform: scale(1.1); /* Zoom-out effect */
+    width: 240px; /* Slightly increase width on focus */
+  }
+  
+  .search:hover {
+    background-color: #555; /* Slightly darker background on hover */
+  }
+  
+  .language {
+    margin-left: 20px; /* Space between search and language dropdown */
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444; /* Match Sidebar theme */
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .language:hover {
+    background-color: #87ceeb; /* Sky blue on hover */
+    color: black;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .profile span {
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Smooth transition for animation */
+  }
+  
+  .profile span:hover {
+    color: #87ceeb; /* Change text color on hover */
+    transform: scale(1.1); /* Slightly enlarge the text on hover */
+  }
+  
